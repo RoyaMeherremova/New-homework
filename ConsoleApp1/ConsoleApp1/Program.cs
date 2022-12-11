@@ -2,6 +2,8 @@
 
 
 
+using System;
+
 Num(21);
 static void Num(int n)
 
@@ -18,3 +20,20 @@ static void Num(int n)
 
 
 }
+
+
+
+
+GetevenNums(10, 50);
+static void GetevenNums(int n, int m)
+
+{
+    if (n % 2 == 0 && m % 2 == 0) ;
+
+    {
+        int sum = n + m;
+
+        Console.WriteLine(sum);
+    }
+}
+
