@@ -142,3 +142,37 @@ static void Count2(int n, int m)
 
     Console.WriteLine(sum);
 }
+
+GetsimpleOrcompound(100);
+static void GetsimpleOrcompound(int n)
+{
+    int count = 0;
+
+    if (n <= 0)
+    {
+        Console.WriteLine("duzgun eded daxil edin");
+    }
+
+    if (n == 1)
+    {
+        Console.WriteLine("ne murekebdir ne sade");
+    }
+
+    for (int i = 1; i <= n; i++)
+
+        if (n % i == 0)
+        {
+            count++;
+        }
+
+
+    if (count > 2)
+    {
+        Console.WriteLine("Murekebdir");
+    }
+    else
+    {
+        Console.WriteLine("Sade");
+    }
+
+}
