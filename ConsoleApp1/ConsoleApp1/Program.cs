@@ -56,3 +56,20 @@ static void Sum(int n, int m)
 
 
 }
+
+
+
+int[] arr = { 1, 2, 3, 4, 5, 7, 8, 96 };
+Sum(arr);
+static void Sum(int[] arr)
+{
+    int sum = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (i % 2 == 1)
+        {
+            sum += i;
+        }
+    }
+    Console.WriteLine(sum);
+}
