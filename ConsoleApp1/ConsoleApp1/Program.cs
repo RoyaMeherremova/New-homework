@@ -37,3 +37,22 @@ static void GetevenNums(int n, int m)
     }
 }
 
+
+Sum(1, 30);
+
+static void Sum(int n, int m)
+{
+
+    int sum = 0;
+    for (int i = 0; i < m; i++)
+    {
+        if (i % 2 == 1)
+        {
+            sum += i;
+        }
+    }
+
+    Console.WriteLine(sum);
+
+
+}
