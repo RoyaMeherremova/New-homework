@@ -125,3 +125,20 @@ static void Sum2(int n, int m)
     Console.WriteLine(sum);
 }
 
+
+Count2(1, 10);
+
+static void Count2(int n, int m)
+{
+
+    int sum = 0;
+    for (int i = 0; i < m; i++)
+    {
+        if (i % 2 == 0)
+        {
+            sum++;
+        }
+    }
+
+    Console.WriteLine(sum);
+}
