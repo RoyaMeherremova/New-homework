@@ -90,3 +90,23 @@ static void Sum1(int[] arr)
     }
     Console.WriteLine(sum);
 }
+
+
+
+Count(5, 30);
+
+static void Count(int n, int m)
+{
+
+    int sum = 0;
+    for (int i = 0; i < m; i++)
+    {
+        if (i % 2 == 1)
+        {
+            sum++;
+        }
+    }
+
+    Console.WriteLine(sum);
+}
+
